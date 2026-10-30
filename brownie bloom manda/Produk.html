@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produk - Brownie Bloom</title>
+
+    <style>
+        body {
+            background: #fff5f2;
+            font-family: Georgia, serif;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #a65370;
+        }
+
+        .produk-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .produk {
+            border: 2px solid #f2b5c5;
+            border-radius: 12px;
+            background: #fff0f3;
+            text-align: center;
+            overflow: hidden;
+            padding-bottom: 10px;
+        }
+
+        .produk img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .produk h3 {
+            padding: 0 5px;
+        }
+
+        .produk p {
+            padding: 0 10px;
+            font-size: 14px;
+        }
+
+        .sumber {
+            color: #ff1493;
+            font-size: 12px;
+        }
+
+        .video-container {
+            max-width: 600px;
+            margin: 25px auto;
+            text-align: center;
+        }
+
+        video {
+            width: 100%;
+            border: 3px solid #f2a9bd;
+            border-radius: 15px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .produk-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .produk img {
+                height: 130px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>OUR BROWNIE</h2>
+
+    <div class="produk-container">
+
+        <!-- PRODUK 1 -->
+        <div class="produk">
+            <a href="https://share.google/UpP8JB2SJi6Ti3Ang" target="_blank">
+                <img src="assets/cookiesandcream.jpg"
+                     alt="Cookies And Cream Brownie">
+            </a>
+
+            <h3>Cookies And Cream Brownie</h3>
+            <p>Brownies coklat yang diisi dengan krim manis dan taburan cookies yang renyah.</p>
+            <div class="sumber">LifeLoveandSugar</div>
+        </div>
+
+        <!-- PRODUK 2 -->
+        <div class="produk">
+            <a href="https://share.google/cujbzSaqnL025dBBa" target="_blank">
+                <img src="assets/matcha.jpg"
+                     alt="Matcha Brownie">
+            </a>
+
+            <h3>Matcha Brownie</h3>
+            <p>Brownies rasa matcha yang memadukan rasa manis dan pahit dengan taburan kacang.</p>
+            <div class="sumber">JajaBakes</div>
+        </div>
+
+        <!-- PRODUK 3 -->
+        <div class="produk">
+            <a href="https://share.google/4AzcpKDrBMSTbGJLS" target="_blank">
+                <img src="assets/ori.jpg"
+                     alt="Original Brownie">
+            </a>
+
+            <h3>Original Brownie</h3>
+            <p>Brownies cokelat klasik dengan cita rasa cokelat yang kuat dan autentik.</p>
+            <div class="sumber">Kompas.com</div>
+        </div>
+
+        <!-- PRODUK 4 -->
+        <div class="produk">
+            <a href="https://share.google/sXGZKvTXQLgU9KRKW" target="_blank">
+                <img src="assets/fudgy.jpg"
+                     alt="Fudgy Brownie">
+            </a>
+
+            <h3>Fudgy Brownie</h3>
+            <p>Brownies coklat manis yang bertekstur lembut dan memiliki lapisan renyah di atasnya.</p>
+            <div class="sumber">IDN Times</div>
+        </div>
+
+        <!-- PRODUK 5 -->
+        <div class="produk">
+            <a href="https://share.google/TBvTnrdA05C2dpy0F" target="_blank">
+                <img src="assets/keju2.jpg"
+                     alt="Cheese Brownie">
+            </a>
+
+            <h3>Cheese Brownie</h3>
+            <p>Brownies cokelat dengan lapisan keju lembut yang creamy dan gurih.</p>
+            <div class="sumber">Amanda Brownies</div>
+        </div>
+
+        <!-- PRODUK 6 -->
+        <div class="produk">
+            <a href="https://share.google/Qe6zrNkMmz9abyyST" target="_blank">
+                <img src="assets/karamel.jpg"
+                     alt="Caramel Brownie">
+            </a>
+
+            <h3>Caramel Brownie</h3>
+            <p>Brownies cokelat yang manis dengan lapisan selai karamel yang lumer di bagian tengah.</p>
+            <div class="sumber">A Spicy Perspective</div>
+        </div>
+
+    </div>
+
+    <!-- VIDEO BROWNIES -->
+    <h2>OUR BROWNIE VIDEO</h2>
+
+    <div class="video-container">
+        <video controls>
+            <source src="assets/video-brownies.mp4" type="video/mp4">
+            Browser kamu tidak mendukung video.
+        </video>
+    </div>
+
+</body>
+</html>
